@@ -6,6 +6,9 @@ ruby "3.1.3"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
+# Use rails-12factor for stdout logs
+gem 'rails_12factor'
+
 # Use high_voltage for static page
 gem 'high_voltage','~>3.0'
 
